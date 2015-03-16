@@ -46,8 +46,8 @@ p {margin: 0 0 30px 0; line-height: 1.7em; font-size:14px;}
 .fullspan{width:100%}
 .fullspan.black{height:50px;background:#000}
 .fullspan.slider{text-align:center;overflow:hidden}
-.fullspan.dark{background:#d81c0a;color:#fff;font-size:18px; padding:50px 0 0 0;}
-.fullspan.copy{background:#fdc51d;color:#fff;font-size:13px;padding:15px 0;text-align:center; text-transform:uppercase;}
+.fullspan.dark{background:#2C2C2C;color:#fff;font-size:18px; padding:50px 0 0 0;}
+.fullspan.copy{background:#B53A3A;color:#fff;font-size:13px;padding:15px 0;text-align:center; text-transform:uppercase;}
 .navbar-inverse .navbar-nav>li>a{font-size:14px;font-weight:600; border-bottom:3px solid #fff; outline:none; text-transform: uppercase; }
 .navbar-inverse .navbar-nav>li>a.active{color:#fff}
 .border-b { background: none repeat scroll 0 0 #e5e5e5;
@@ -61,7 +61,20 @@ p {margin: 0 0 30px 0; line-height: 1.7em; font-size:14px;}
 
 /* 02 - FLEX SLIDER OVERRIDES
 -------------------------------------------------*/
-
+   .homeInfo{
+            position : absolute;
+            background-color : rgba(0,0,0,.5);
+            top:0;
+            text-align:center;
+            color:#fff;  
+         }
+         .homeInfo h1{
+            margin-top: 15%;
+            font-family: Helvetica;
+            font-weight: bold;
+            font-size: 3.6em;
+            text-transform: uppercase;
+         }
 .flexslider .row{padding:0;margin-bottom:0;border:0 none}
 .flexslider .inner{color:#000;margin:auto;position:absolute;top:0;left:0;bottom:0;right:0;text-align:center}
 .flexslider h1{font-size:90px;background-color:rgba(0,0,0,0.80);padding:5px 20px 15px 20px;font-weight:100;letter-spacing:3px;text-transform:uppercase; display:inline-block; margin:130px auto 30px; color:#fff;}
