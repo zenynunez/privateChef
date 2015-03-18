@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 
 		// BXSLIDER
 		jQuery('.gallery').bxSlider({
-			slideWidth: 280,
+			slideWidth: 360,
 			minSlides: 1,
 			maxSlides: 4,
 			moveSlides: 1,
